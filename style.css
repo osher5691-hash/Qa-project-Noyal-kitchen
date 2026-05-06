@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noyal Kitchen | אוכל ביתי פרימיום - נוי אלמוג</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slide-container header-placeholder">
+        <div class="logo-wrapper">
+            <div class="logo-text">
+                <i class="fa-solid fa-utensils"></i> Noyal Kitchen
+            </div>
+            <p style="font-size: 20px; color: var(--gold); margin-top: 20px; text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">הנשמה שבסירים – מהסיר של נוי אליכם הביתה</p>
+        </div>
+    </div>
+
+    <div class="slide-container" style="background-color: transparent; border: none; box-shadow: none; margin-top: -20px; margin-bottom: 0; padding-top: 0;">
+        <h1 style="margin-top: 10px; color: var(--gold);">הנשמה שבסירים</h1>
+        <p style="text-align: center; font-size: 24px; color: var(--white); opacity: 0.8;">אוכל ביתי וטרי – מהסיר של נוי אליכם הביתה</p>
+    </div>
+
+    <div class="slide-container">
+        <h2 class="slide-title">הכירו את Noyal Kitchen</h2>
+        <div class="content-grid">
+            <div>
+                <h3 style="font-size: 32px; margin-bottom: 20px;">המטבח של נוי</h3>
+                <p>נוי אלמוג מביאה אל שולחן האוכל שלכם מסורת של דורות. ב-Noyal Kitchen אנחנו לא רק מבשלים, אנחנו יוצרים זיכרונות. כל חומר גלם נבחר בקפידה, כל תבלין נטחן במקום, וכל סיר מקבל את הזמן שלו על האש כדי להגיע לטעם המושלם של פעם.</p>
+                <p>מהדגים המרוקאיים החריפים של שישי ועד לקובה סלק שמתבשל שעות – האוכל שלנו הוא הבית שלכם.</p>
+            </div>
+            <div class="video-container">
+                <video autoplay muted loop playsinline class="content-video">
+                    <source src="background-video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <h2 class="slide-title">התפריט שלנו</h2>
+        <div class="menu-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>המנה</th>
+                        <th>תיאור קולינרי</th>
+                        <th>מחיר</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="couscous.jpg" alt="קוסקוס" class="menu-item-img">
+                            קוסקוס סולת בעבודת יד
+                        </td>
+                        <td>אוורירי במיוחד, מוגש עם מרק ירקות עשיר ובשר בקר או עוף נימוח</td>
+                        <td class="price-col">85 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="kubeh.jpg" alt="קובה" class="menu-item-img">
+                            קובה סלק (Home Made)
+                        </td>
+                        <td>קובה בעבודת יד במעטפת סולת דקה ומשובחת ברוטב סלק עמוק וחמצמץ (5 יח')</td>
+                        <td class="price-col">65 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="fish.jpg" alt="חריימה" class="menu-item-img">
+                            דגים מרוקאיים (חריימה)
+                        </td>
+                        <td>פילה דג טרי ברוטב פלפלים אדומים, שום, כמון וכוסברה בבישול ארוך (מגיע עם חלה)</td>
+                        <td class="price-col">89 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="mafrum.jpg" alt="מפרום" class="menu-item-img">
+                            מפרום תבשיל (טריפוליטאי)
+                        </td>
+                        <td>סירות תפוחי אדמה במילוי בשר בקר עסיסי, ברוטב עגבניות סמיך ומלא טעמים</td>
+                        <td class="price-col">75 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="onion.jpg" alt="בצלים ממולאים" class="menu-item-img">
+                            בצלים ממולאים
+                        </td>
+                        <td>בצלים מתוקים ממולאים באורז עשיר ובתערובת בשר בקר טרי</td>
+                        <td class="price-col">65 ₪ למגש</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="cabbage.jpg" alt="כרוב ממולא" class="menu-item-img">
+                            כרוב ממולא
+                        </td>
+                        <td>עלי כרוב עדינים ממולאים באורז מתובל ובשר, בבישול ארוך ורוטב עשיר</td>
+                        <td class="price-col">65 ₪ למגש</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="pasta.jpg" alt="פסטה" class="menu-item-img">
+                            פסטה שמנת עם ברוקולי ועוף
+                        </td>
+                        <td>פסטה עשירה ברוטב שמנת, עוף צלוי וברוקולי טרי</td>
+                        <td class="price-col">75 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="rice.jpg" alt="אורז" class="menu-item-img">
+                            אורז מוקפץ עם עוף וברוקולי
+                        </td>
+                        <td>אורז לבן/מלא מוקפץ עם רצועות עוף וברוקולי עסיסי</td>
+                        <td class="price-col">69 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="salmon.jpg" alt="קציצות דגים" class="menu-item-img">
+                            קציצות דג סלומון
+                        </td>
+                        <td>קציצות דג סלומון עסיסיות ברוטב עגבניות פיקנטי או עשבי תיבול</td>
+                        <td class="price-col">75 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="meat-potatoes.jpg" alt="קציצות בשר" class="menu-item-img">
+                            קציצות בשר בקר בתבשיל תפוחי אדמה
+                        </td>
+                        <td>קציצות בקר רכות ועסיסיות מתבשלות עם תפוחי אדמה ברוטב מרוכז</td>
+                        <td class="price-col">75 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="noodles.jpg" alt="נודלס" class="menu-item-img">
+                            נודלס מוקפץ עם חזה עוף
+                        </td>
+                        <td>אטריות נודלס מוקפצות עם נתחי חזה עוף, ירקות טריים ברוטב אסייתי פיקנטי</td>
+                        <td class="price-col">65 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="artichoke.jpg" alt="קציצות ארטישוק" class="menu-item-img">
+                            קציצות בשר ברוטב ארטישוק
+                        </td>
+                        <td>קציצות בקר רכות בבישול ביתי עשיר עם לבבות ארטישוק ולימון</td>
+                        <td class="price-col">75 ₪ למנה</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="schnitzel.jpg" alt="שניצל" class="menu-item-img">
+                            שניצל עסיסי של אמא
+                        </td>
+                        <td>חזה עוף בציפוי פירורי לחם ושומשום, מטוגן להזהבה בצורה קריספית (5 יח')</td>
+                        <td class="price-col">65 ₪ למנה</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <h2 class="slide-title">הדג המרוקאי המפורסם</h2>
+        <div class="content-grid">
+            <div>
+                <h3>חריף, עמוק וממכר</h3>
+                <p style="font-size: 19px; margin-bottom: 20px;">הדג שלנו הוא לא סתם מנה, הוא טקס. אנחנו משתמשים בפלפלים מתוקים וחריפים המיובשים בשמש, בשום ישראלי טרי ובשמן זית ראשון המסיק.</p>
+                <ul style="list-style: none; padding: 0; color: var(--text-muted);">
+                    <li style="margin-bottom: 8px;"><i class="fa-solid fa-check" style="color: var(--gold);"></i> דג טרי המגיע מדי בוקר מהנמל</li>
+                    <li style="margin-bottom: 8px;"><i class="fa-solid fa-check" style="color: var(--gold);"></i> בישול איטי של הרוטב למשך 3 שעות</li>
+                    <li style="margin-bottom: 8px;"><i class="fa-solid fa-check" style="color: var(--gold);"></i> חלה טריות (בעבודת יד) מוגשות בצד</li>
+                </ul>
+            </div>
+            <div class="image-box">
+                <img src="fish.jpg" alt="Moroccan Chraime Fish">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <h2 class="slide-title">האיכות במספרים</h2>
+        <div class="highlight-numbers-layout">
+            <div>
+                <div class="number">100%</div>
+                <div class="number-label">עבודת יד</div>
+            </div>
+            <div>
+                <div class="number">48</div>
+                <div class="number-label">שעות הכנה מראש</div>
+            </div>
+            <div>
+                <div class="number">24</div>
+                <div class="number-label">שוגי תבלינים</div>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 40px; font-size: 22px; color: var(--text-muted);">אנחנו לא מקצרים דרכים. כל מנה מקבלת את הטיפול המגיע לה.</p>
+    </div>
+
+    <div class="slide-container">
+        <h2 class="slide-title">למה Noyal Kitchen?</h2>
+        <div class="tile-grid">
+            <div class="tile-card">
+                <i class="fa-solid fa-mortar-pestle"></i>
+                <h3>טריות ותיבול</h3>
+                <p>אנחנו לא מקצרים דרכים. כל המנות מבושלות ביום ההזמנה עם תערובות תבלינים שאנחנו רוקחים לבד.</p>
+            </div>
+            <div class="tile-card">
+                <i class="fa-solid fa-heart"></i>
+                <h3>בישול באהבה</h3>
+                <p>הבישול נעשה בקבוצות קטנות כדי לשמור על הטעם האישי והביתי בכל סיר וסיר.</p>
+            </div>
+            <div class="tile-card">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>משלוח עד הבית</h3>
+                <p>הזמנות לסופ"ש נסגרות ביום רביעי. האוכל מגיע אליכם חם, טרי ומוכן לשולחן השבת.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container" style="background-color: var(--champagne-light); border: 2px solid var(--gold); text-align: center; padding: 40px 20px; width: 60%; max-width: 800px; margin: 40px auto;">
+        <div class="logo-text"><i class="fa-solid fa-utensils"></i> Noyal Kitchen</div>
+        <h2 style="font-size: 40px; margin: 15px 0; color: var(--white);">מוכנים לביס המושלם?</h2>
+        <p style="font-size: 18px; color: var(--text-muted);">הזמנות לסופ"ש נסגרות ביום רביעי בשעה 20:00</p>
+        
+        <div style="margin-top: 20px;">
+            <a href="https://wa.me/972528970321" class="btn-whatsapp" style="padding: 15px 30px; font-size: 18px;">
+                <i class="fa-brands fa-whatsapp"></i> לחצו להזמנה מהירה בוואטסאפ
+            </a>
+        </div>
+        
+        <div style="margin-top: 30px; font-size: 18px;">
+            <p style="color: var(--white);">או התקשרו אלינו: <a href="tel:0528970321" style="color: var(--gold); text-decoration: none;">052-8970321</a></p>
+            <p style="color: var(--white);">כתובת למשלוחים ואיסוף: רמת גן, עוזיאל</p>
+            <p style="color: var(--white);">מייל: noyal1231@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
